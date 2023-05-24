@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LTH Map</title>
+
+  <link rel="stylesheet" href="css/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+  <h1>
+    <b>E-House Map</b>
+    <!---<small class="alpha-text" >&alpha;lpha version</small>-->
+
+    <div class="dropdown">
+      <button class="dropbtn">i</button>
+      <div id="myDropdown" class="dropdown-content">
+        <small>INFO</small>
+      </div>
+    </div>
+  </h1>
+<!--inte detta som gör att sökningen inte fungerar-->
+
+  <div class="wrapper">
+    <div class="search-input">
+      <a href="" target="_blank" hidden></a>
+      <input type="text" placeholder="Search for a room (ex E:1144)...">
+      <div class="autocom-box">
+      </div>
+      <div class="icon"><i class="fas fa-search"></i></div>
+    </div>
+  </div>
+
+  <div>
+    <b id = våningText class="våningText" > Search by pressing enter</b>
+    <div class="container">
+      <canvas id = canvas class="webgl" ></canvas>
+    </div>
+    
+    
+  </div>  
+
+  <script defer src="js/sceneryHandler.js" type="module"></script>
+  <script src="js/index.js" type="module"></script>
+  <script src="js/suggestions.js" type="module"></script>
+  <script src="js/search.js" type="module"></script>
+  <script src="js/renderHandler.js" type="module"></script>
+  <script src="js/loader.js" type="module"></script>
+  
+</body>
+</html>
+
