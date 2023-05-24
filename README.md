@@ -5,6 +5,7 @@
 * Notera att projektet använder Three.js som är ett javascript bibliotek för 3D grafik. Bibloteket (en folder) är inte inkluderat i projektet på github, och måste därför kopplas till projektet efter pull från github. Den primitiva lätta lösning att göra detta är att laddas ner three.js och läggas i samma mapp som projektet - men det finns antagligen betydligt bättre lösningar.
 
 ### Hög prio to-do
+* Projektet innehåller många filer (huvudsakligen modeller)
 * Lägg till toaletter
 * Lägg till smårummen (grupprummen)
 * Lägg till 4115-4124
