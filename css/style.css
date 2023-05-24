@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: rgb(171, 197, 180);
+}
+
+h1{
+    background-color: rgb(171, 197, 180);
+    height:2.5cm;
+    border: 6px dotted rgb(79, 141, 101);
+    margin: 1mm;
+
+}
+
+
+/*
+.alpha-text::before{
+    
+    content: "\a";
+    white-space: pre;  
+}*/
+
+.våningText{
+  font-size: large;
+  margin: 2mm
+}
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: #48a04b;
+    color: white;
+    height: 1.7cm;
+    width: 3cm;
+    margin: 2mm;
+    margin-bottom: 4mm;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    font-size: 1.5cm;
+    box-shadow: 0 9px #999;
+    float: right;
+    
+  }
+  
+  .dropbtn:hover {background-color: #459647}
+
+  .dropbtn:active {
+    background-color: #357938;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    float: right;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    float: auto
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: #ddd
+  }
+
+  /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+  
+
+
+::selection{
+  color: #fff;
+  background: #024217;
+}
+/*
+.wrapper{
+  max-width: 450px;
+  margin: 150px auto;
+}*/
+
+.wrapper .search-input{
+  background: #fff;
+  width: 100%;
+  border-radius: 5px;
+  position: relative;
+  box-shadow: 0px 1px 5px 3px rgba(0,0,0,0.12);
+}
+
+.search-input input{
+  height: 55px;
+  width: 100%;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  padding: 0 60px 0 20px;
+  font-size: 18px;
+  box-shadow: 0px 1px 5px rgba(0,0,0,0.1);
+}
+
+.search-input.active input{
+  border-radius: 5px 5px 0 0;
+}
+
+.search-input .autocom-box{
+  padding: 0;
+  opacity: 0;
+  pointer-events: none;
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.search-input.active .autocom-box{
+  padding: 10px 8px;
+  opacity: 1;
+  pointer-events: auto;
+  background: #e0e0e0;
+}
+
+.autocom-box li{
+  list-style: none;
+  padding: 7px 5px;
+  display: none;
+  width: 100%;
+  cursor: default;
+  border-radius: 3px;
+}
+
+.search-input.active .autocom-box li{
+  display: block;
+}
+.autocom-box li:hover{
+  
+}
+
+.search-input .icon{
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  height: 55px;
+  width: 55px;
+  text-align: center;
+  line-height: 55px;
+  font-size: 20px;
+  color: #014f17;
+  cursor: pointer;
+}

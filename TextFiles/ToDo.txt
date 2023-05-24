@@ -1,0 +1,25 @@
+To do:
+Fixa en himmel bild i bakgrunden
+Fixa css koden
+Ta bort E:
+Fixa outlines
+Testa så rummen är på rätt plats.
+vissa är fel: K2, 1123
+
+_____________________________________
+
+Skriv text på canvasen
+Sök efter en våning
+Elevation
+Tjocklek på pilen
+(Ofarliga) errors som ges
+Enter E: om rummet inte kan hittas
+Implementera gröna rum
+
+Fixa att man inte kan klicka på sökning
+- Finns en "select"
+
+UTLÄMNADERUM:
+Smårummen
+4115-4124
+24xx salarna
